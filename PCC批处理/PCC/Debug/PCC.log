@@ -1,0 +1,30 @@
+﻿Build started 2015/8/18 20:51:43.
+     1>Project "F:\git\CodeRepository\PCC批处理\PCC\PCC.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\PCC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\software\study\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PCC.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PCC.cpp
+         PCC.cpp
+     1>c:\software\study\opencv2.4.8\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\software\study\vs2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\software\study\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git\CodeRepository\PCC批处理\Debug\PCC.exe" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PCC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\git\CodeRepository\PCC批处理\Debug\PCC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git\CodeRepository\PCC批处理\Debug\PCC.lib" /MACHINE:X86 Debug\PCC.exe.embed.manifest.res
+         Debug\PCC.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PCC.exe.embed.manifest" /manifest Debug\PCC.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         PCC.vcxproj -> F:\git\CodeRepository\PCC批处理\Debug\PCC.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\PCC.unsuccessfulbuild".
+         Touching "Debug\PCC.lastbuildstate".
+     1>Done Building Project "F:\git\CodeRepository\PCC批处理\PCC\PCC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
